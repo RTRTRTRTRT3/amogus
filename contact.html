@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Контакты</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: Arial, sans-serif;
+			color: #333;
+		}
+		.contact-form {
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			padding: 20px;
+			margin: 20px 0;
+			background-color: #f9f9f9;
+			border: 1px solid #ddd;
+		}
+		.contact-form input, .contact-form textarea {
+			padding: 10px;
+			margin: 5px 0;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			width: 100%;
+		}
+		.contact-form button[type="submit"] {
+			background-color: #007bff;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+		.contact-form button[type="submit"]:hover {
+			background-color: #0056b3;
+		}
+		footer {
+			text-align: center;
+			color: #666;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<a href="/index.html"><button style="background-color: lightgrey; height: 40px; width: 200px; font-size: 30px; margin: 10px;">back</button></a>
+	<section>
+		<div class="contact-form">
+			<h2>Свяжитесь с нами</h2>
+			<form>
+				<input type="text" placeholder="Имя" required>
+				<input type="email" placeholder="Электронная почта" required>
+				<textarea placeholder="Сообщение" required></textarea>
+				<button type="submit">Отправить</button>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<p>&copy; 2023 Шалкаркызы Рания</p>
+	</footer>
+</body>
+</html>
